@@ -1,0 +1,12 @@
+[ "bson": {:git, "git://github.com/mongodb/bson-erlang", "6d3cc910eac6d4c21402427b41c411e201eca424", [{:ref, "HEAD"}]},
+  "cowboy": {:git, "git://github.com/extend/cowboy.git", "5e5d8ab299a451ffbf0552bc2190a5fcbec08c16", []},
+  "dynamo": {:git, "git://github.com/elixir-lang/dynamo.git", "82aa4c37c456541983e56bfc7d544b812a9b6077", []},
+  "etoml": {:git, "git://github.com/kalta/etoml.git", "8772c8e5e060da6da13ea995dd1de0d083694ab5", []},
+  "httpotion": {:git, "git://github.com/myfreeweb/httpotion.git", "bc4f83ed0e433db3e1f7dbfb6377210990a35635", []},
+  "ibrowse": {:git, "git://github.com/cmullaparthi/ibrowse.git", "208277b69fa9cc1b68f37d1261a77abe6487a677", []},
+  "jsx": {:git, "git://github.com/talentdeficit/jsx.git", "352d6b21cbec4fe1b66bc7ce3ded67a3b32add2c", [{:ref, "master"}]},
+  "mimetypes": {:git, "git://github.com/spawngrid/mimetypes.git", "47d37a977a7d633199822bf6b08353007483d00f", []},
+  "mongodb": {:git, "git://github.com/mururu/mongodb-erlang.git", "4c640620bf2ab82d9be85d527a229cd6b60a4c02", []},
+  "mongoex": {:git, "git://github.com/mururu/mongoex.git", "4bd4d8e5bb35f48fb1244ac044dc46c896686822", []},
+  "ranch": {:git, "git://github.com/extend/ranch.git", "4f70a16bbe08e446e8fec248ca345d5f8e7df038", [{:ref, "0.8.4"}]},
+  "simple_oauth2": {:git, "git://github.com/virtan/simple_oauth2.git", "71fd58fe2038f9491adbcd26c84ba0ba4e18f2c8", []} ]
