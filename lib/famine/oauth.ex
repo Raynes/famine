@@ -2,7 +2,7 @@ defmodule Famine.Oauth do
   import Dynamo.HTTP.Redirect, only: [redirect: 2]
 
   def authenticate(conn) do
-    path = conn.path_segments |> Enum.drop(1) |> Enum.join("/")
+    path = String.lstrip(conn.path_info, ?/)
     path = "#{path}?#{conn.query_string}"
     prefix = "#{conn.scheme}://#{conn.host}"
     prefix = if conn.port != 80 do "#{prefix}:#{conn.port}" else prefix end
